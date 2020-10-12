@@ -4,8 +4,8 @@
   }
   .glitch {
     font: {
-      size: 8.125em;
-      family: "Raleway", sans-serif;
+      size: 10em;
+      family: "Penna", sans-serif;
       weight: 700;
     }
     text-decoration: none;
@@ -77,4 +77,4 @@
   }
 </style>
 
-<div class="glitch" data-glitch="VAPR">VAPR</div>
+<div class="glitch" data-glitch="VAPRCO">VAPRCO</div>
