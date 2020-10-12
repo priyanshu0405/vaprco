@@ -24,6 +24,7 @@
 	li {
 		display: block;
 		float: left;
+		color: cornsilk;
 	}
 
 	[aria-current] {
@@ -46,15 +47,35 @@
 		padding: 1em 0.5em;
 		display: block;
 	}
+
+	button
+	{
+    	padding: 10px 10px;
+    	font-size: 20px;
+    	text-align: center;
+    	cursor: pointer;
+    	outline: none;
+    	color: #fff;
+		background-color: black;
+    	border: none;
+    	border-radius: 0.5px;
+	}
+
+	button:hover 
+	{
+		background-color: rgb(255,62,0);
+	}
+
+
 </style>
 
 <nav>
 	<ul>
-		<li><a aria-current="{segment === undefined ? 'page' : undefined}" href=".">home</a></li>
-		<li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">about</a></li>
+		<li><a aria-current="{segment === undefined ? 'page' : undefined}" href="."><button>Home</button></a></li>
+		<li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about"><button>About</button></a></li>
 
 		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
 		     the blog data when we hover over the link or tap it on a touchscreen -->
-		<li><a rel=prefetch aria-current="{segment === 'blog' ? 'page' : undefined}" href="blog">blog</a></li>
+		<li><a rel=prefetch aria-current="{segment === 'blog' ? 'page' : undefined}" href="blog"><button>Blog</button></a></li>
 	</ul>
 </nav>
