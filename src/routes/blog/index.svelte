@@ -2,9 +2,9 @@
   :global(body) {
     background-color: black;
   }
-  .glitch {
+  .text {
     font: {
-      size: calc(4vw + 4vh);
+      size: calc(2.5vw + 2.5vh);
       family: "Open sans", sans-serif;
       weight: 700;
     }
@@ -19,11 +19,11 @@
     white-space: nowrap;
 
     @media only screen and (max-width: 200px) {
-      .glitch {
+      .text {
         font-size: 1em;
       }
     }
   }
 </style>
 
-<div class="glitch" data-glitch="our team">our team</div>
+<div class="text" data-text="our team">our team</div>
