@@ -1,6 +1,6 @@
 <style type="text/scss">
   :global(body) {
-    background-color: black;
+    background-color: #011826;
   }
   .glitch {
     font: {

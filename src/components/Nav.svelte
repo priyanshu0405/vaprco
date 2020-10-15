@@ -96,7 +96,7 @@ nav ul li a:before {
   transition: all .5s;
 }
 nav ul li a:hover {
-  color: darkgreen;
+  color: #ccdfcb;;
 }
 
 nav.fill ul li a {
@@ -147,7 +147,7 @@ nav.fill ul li a:hover:after {
   100% {
     width: 100%;
     height: 100%;
-    background:rgb(255,62,0);
+    background:#985e6d;
   }
 }
 </style>
