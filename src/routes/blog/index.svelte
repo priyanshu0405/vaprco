@@ -1,7 +1,4 @@
 <style type="text/scss">
-  :global(body) {
-    background-color: black;
-  }
   .text {
     font: {
       size: calc(2.5vw + 2.5vh);
