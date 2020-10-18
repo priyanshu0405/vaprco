@@ -43,11 +43,11 @@ from 'svelte-awesome/icons';
   float: left;
   top:30%;
   width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
+  margin-bottom: 5px;
+  /*padding: 0 8px;*/
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 650px) {
   .column {
     width: 100%;
     display: block;
@@ -55,19 +55,20 @@ from 'svelte-awesome/icons';
 }
 
 
-.container {
-  padding: 0 16px;
-  
-}
+
 .container{
+  float: left;
+  top:30%;
+  width: 33.3%;
   user-select: none;
-  margin: 100px auto;
+  margin: 20px auto;
   background: #231e39;
   color: #b3b8cd;
   border-radius: 5px;
   width: 350px;
   text-align: center;
   box-shadow: 0 10px 20px -10px rgba(0,0,0,.75);
+  z-index: 1;
 }
 .container::after, .row::after {
   content: "";
@@ -181,7 +182,26 @@ i:hover{
     
         </div>
       </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <div class="cover-photo">
+          <img src="https://images.unsplash.com/photo-1565464027194-7957a2295fb7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt=" " class="profile">
+        </div>
+        <div class="profile-name">{name}</div>
+        <p class="about">{about}</p>
+        <div>
+          <i href="https://github.com/" class="fa fa-align-center fa-github"></i>
+          <i href="https://www.linkedin.com/" class="fa fa-linkedin"></i>
+          <i href="https://www.instagram.com/" class="fa fa-instagram"></i>
+          <i href="https://twitter.com/" class="fa fa-twitter"></i>
+          <i href="https://www.facebook.com/" class="fa fa-facebook"></i>
     
+        </div>
+      </div>
     </div>
   </div>
 </div>
