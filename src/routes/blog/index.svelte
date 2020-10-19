@@ -1,13 +1,6 @@
 <svelte:head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </svelte:head>
-<script>
-  export let name;
-  export let about;
-  import Icon from 'svelte-awesome/components/Icon.svelte';
-import {twitter, facebook, github, linkedin, instagram } 
-from 'svelte-awesome/icons';
-</script>
 <style type="text/scss">
   .text {
     font: {
@@ -33,7 +26,9 @@ from 'svelte-awesome/icons';
     }
   }
   
-  
+  *{
+  box-sizing: border-box;
+}
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -41,34 +36,29 @@ from 'svelte-awesome/icons';
 
 .column {
   float: left;
-  top:30%;
-  width: 33.3%;
   margin-bottom: 5px;
-  /*padding: 0 8px;*/
+  padding: 0 8px;
 }
 
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
-    display: block;
+    display:block;
   }
 }
 
 
 
 .container{
-  float: left;
-  top:30%;
-  width: 33.3%;
   user-select: none;
-  margin: 20px auto;
+  margin: 25px auto;
   background: #231e39;
+  max-width:340px;
+  min-width:320px;
   color: #b3b8cd;
   border-radius: 5px;
-  width: 350px;
   text-align: center;
   box-shadow: 0 10px 20px -10px rgba(0,0,0,.75);
-  z-index: 1;
 }
 .container::after, .row::after {
   content: "";
@@ -83,9 +73,9 @@ from 'svelte-awesome/icons';
   border-radius: 5px 5px 0 0;
 }
 .profile{
-  height: 120px;
-  width: 120px;
-  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  border-radius: 40%;
   margin: 93px 0 0 -175px;
   border: 1px solid #1f1a32;
   padding: 7px;
@@ -104,13 +94,9 @@ from 'svelte-awesome/icons';
   margin: 27px 0 0 120px;
 }
 .about{
-  margin-top: 35px;
+  margin-top: 20px;
   line-height: 21px;
 }
-button{
-  margin: 10px 0 40px 0;
-}
-
 .container i{
   padding-left: 20px;
   font-size: 20px;
@@ -126,13 +112,13 @@ i:hover{
 <div class="text" data-text="our team">our team</div>
 <div class="row">
   <div class="column">
-    <div class="card">
+    
       <div class="container">
         <div class="cover-photo">
           <img src="https://images.unsplash.com/photo-1565464027194-7957a2295fb7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt=" " class="profile">
         </div>
-        <div class="profile-name">{name}</div>
-        <p class="about">{about}</p>
+        <div class="profile-name">Name</div>
+        <p class="about">About</p>
         <div>
           <i href="https://github.com/" class="fa fa-align-center fa-github"></i>
           <i href="https://www.linkedin.com/" class="fa fa-linkedin"></i>
@@ -142,17 +128,17 @@ i:hover{
     
         </div>
       </div>
-    </div>
+    
   </div>
 
   <div class="column">
-    <div class="card">
+    
       <div class="container">
         <div class="cover-photo">
           <img src="https://images.unsplash.com/photo-1565464027194-7957a2295fb7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt=" " class="profile">
         </div>
-        <div class="profile-name">{name}</div>
-        <p class="about">{about}</p>
+        <div class="profile-name">Name</div>
+        <p class="about">About</p>
         <div>
           <i href="https://github.com/" class="fa fa-align-center fa-github"></i>
           <i href="https://www.linkedin.com/" class="fa fa-linkedin"></i>
@@ -162,17 +148,17 @@ i:hover{
     
         </div>
       </div>
-    </div>
+    
   </div>
   
   <div class="column">
-    <div class="card">
+    
       <div class="container">
         <div class="cover-photo">
           <img src="https://images.unsplash.com/photo-1565464027194-7957a2295fb7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt=" " class="profile">
         </div>
-        <div class="profile-name">{name}</div>
-        <p class="about">{about}</p>
+        <div class="profile-name">Name</div>
+        <p class="about">About</p>
         <div>
           <i href="https://github.com/" class="fa fa-align-center fa-github"></i>
           <i href="https://www.linkedin.com/" class="fa fa-linkedin"></i>
@@ -182,17 +168,17 @@ i:hover{
     
         </div>
       </div>
-    </div>
+    
   </div>
 
   <div class="column">
-    <div class="card">
+    
       <div class="container">
         <div class="cover-photo">
           <img src="https://images.unsplash.com/photo-1565464027194-7957a2295fb7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt=" " class="profile">
         </div>
-        <div class="profile-name">{name}</div>
-        <p class="about">{about}</p>
+        <div class="profile-name">Name</div>
+        <p class="about">About</p>
         <div>
           <i href="https://github.com/" class="fa fa-align-center fa-github"></i>
           <i href="https://www.linkedin.com/" class="fa fa-linkedin"></i>
@@ -202,6 +188,6 @@ i:hover{
     
         </div>
       </div>
-    </div>
+    
   </div>
 </div>
