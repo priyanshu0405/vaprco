@@ -25,7 +25,7 @@
       }
     }
   }
-  
+
   *{
   box-sizing: border-box;
 }
@@ -37,7 +37,7 @@
 .column {
   float: left;
   margin-bottom: 5px;
-  padding: 0 8px;
+  padding: 0 30px;
 }
 
 @media screen and (max-width: 650px) {
@@ -190,4 +190,45 @@ i:hover{
       </div>
     
   </div>
+
+  <div class="column">
+    
+    <div class="container">
+      <div class="cover-photo">
+        <img src="https://images.unsplash.com/photo-1565464027194-7957a2295fb7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt=" " class="profile">
+      </div>
+      <div class="profile-name">Name</div>
+      <p class="about">About</p>
+      <div>
+        <i href="https://github.com/" class="fa fa-align-center fa-github"></i>
+        <i href="https://www.linkedin.com/" class="fa fa-linkedin"></i>
+        <i href="https://www.instagram.com/" class="fa fa-instagram"></i>
+        <i href="https://twitter.com/" class="fa fa-twitter"></i>
+        <i href="https://www.facebook.com/" class="fa fa-facebook"></i>
+  
+      </div>
+    </div>
+  
+  </div>
+
+  <div class="column">
+    
+    <div class="container">
+      <div class="cover-photo">
+        <img src="https://images.unsplash.com/photo-1565464027194-7957a2295fb7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt=" " class="profile">
+      </div>
+      <div class="profile-name">Name</div>
+      <p class="about">About</p>
+      <div>
+        <i href="https://github.com/" class="fa fa-align-center fa-github"></i>
+        <i href="https://www.linkedin.com/" class="fa fa-linkedin"></i>
+        <i href="https://www.instagram.com/" class="fa fa-instagram"></i>
+        <i href="https://twitter.com/" class="fa fa-twitter"></i>
+        <i href="https://www.facebook.com/" class="fa fa-facebook"></i>
+  
+      </div>
+    </div>
+  
+</div>
+
 </div>
