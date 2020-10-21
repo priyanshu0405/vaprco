@@ -10,7 +10,7 @@ from 'svelte-awesome/icons';
 <style>
 	main {
 		position: relative;
-		max-width: 56em;
+		max-width: 100em;
 		padding: 5em;
 		margin: 0 auto;
 		box-sizing: border-box;
