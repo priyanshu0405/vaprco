@@ -22,14 +22,14 @@ from 'svelte-awesome/icons';
   width:100%;
   position:fixed;
   bottom:0px;
-  /*width:auto;*/
+  //width:auto;
 }
 
 ul{
   display: flex;
   flex-direction:row;
   justify-content:center;
-  /*align-content:space-between;*/
+  //align-content:space-between;
 
 }
 
