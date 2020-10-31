@@ -34,3 +34,19 @@ code {
 		font-size: 16px;
 	}
 }
+* {
+	scrollbar-width: thin;
+	scrollbar-color: #03bfbc black;
+  }
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+	width: 12px;
+  }
+  *::-webkit-scrollbar-track {
+	background: black;
+  }
+  *::-webkit-scrollbar-thumb {
+	background-color: #03bfbc;
+	border-radius: 20px;
+	border: 2px solid black;
+  }

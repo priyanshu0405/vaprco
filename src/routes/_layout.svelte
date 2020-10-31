@@ -8,28 +8,26 @@ from 'svelte-awesome/icons';
 </script>
 
 <style>
-	main {
+  main {
 		position: relative;
 		max-width: 100em;
 		padding: 5em;
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
-
-
 .footer-icons{	
   font-size:2em;
   width:100%;
   position:fixed;
   bottom:0px;
-  /*width:auto;*/
+  //width:auto;
 }
 
 ul{
   display: flex;
   flex-direction:row;
   justify-content:center;
-  /*align-content:space-between;*/
+  //align-content:space-between;
 
 }
 
