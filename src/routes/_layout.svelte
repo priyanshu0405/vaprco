@@ -8,7 +8,7 @@ from 'svelte-awesome/icons';
 </script>
 
 <style>
-  main {
+main {
 		position: relative;
 		max-width: 100em;
 		padding: 5em;
