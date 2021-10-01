@@ -6,7 +6,7 @@
   .text {
     font: {
       size: calc(2.5vw + 2.5vh);
-      family: "Open sans", sans-serif;
+      family: "Open sans", mono;
       weight: 700;
     }
     margin-left: auto;
@@ -17,7 +17,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     white-space: nowrap;
 
     @media only screen and (max-width: 200px) {
@@ -68,7 +68,6 @@
 }
 
 .cover-photo{
-  background: url(https://images.unsplash.com/photo-1540228232483-1b64a7024923?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
   height: 160px;
   width: 100%;
   border-radius: 5px 5px 0 0;
@@ -80,19 +79,18 @@
   margin: 93px 0 0 -175px;
   border: 1px solid #1f1a32;
   padding: 7px;
-  background: #292343;
+  background: #292353;
   position:relative;
   
 }
 .profile:hover{
-  -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5); 
 }
 .profile-name{
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
-  margin: 27px 0 0 120px;
+  margin: 25px 0 0 118px;
 }
 .about{
   margin-top: 20px;
@@ -130,107 +128,7 @@ i:hover{
         </div>
       </div>
     
-  </div>
-
-  <div class="column">
-    
-      <div class="container">
-        <div class="cover-photo">
-          <img src="https://images.unsplash.com/photo-1565464027194-7957a2295fb7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt=" " class="profile">
-        </div>
-        <div class="profile-name">Name</div>
-        <p class="about">About</p>
-        <div>
-          <i href="https://github.com/" class="fa fa-align-center fa-github"></i>
-          <i href="https://www.linkedin.com/" class="fa fa-linkedin"></i>
-          <i href="https://www.instagram.com/" class="fa fa-instagram"></i>
-          <i href="https://twitter.com/" class="fa fa-twitter"></i>
-          <i href="https://www.facebook.com/" class="fa fa-facebook"></i>
-    
-        </div>
-      </div>
-    
-  </div>
-  
-  <div class="column">
-    
-      <div class="container">
-        <div class="cover-photo">
-          <img src="https://images.unsplash.com/photo-1565464027194-7957a2295fb7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt=" " class="profile">
-        </div>
-        <div class="profile-name">Name</div>
-        <p class="about">About</p>
-        <div>
-          <i href="https://github.com/" class="fa fa-align-center fa-github"></i>
-          <i href="https://www.linkedin.com/" class="fa fa-linkedin"></i>
-          <i href="https://www.instagram.com/" class="fa fa-instagram"></i>
-          <i href="https://twitter.com/" class="fa fa-twitter"></i>
-          <i href="https://www.facebook.com/" class="fa fa-facebook"></i>
-    
-        </div>
-      </div>
-    
-  </div>
-
-  <div class="column">
-    
-      <div class="container">
-        <div class="cover-photo">
-          <img src="https://images.unsplash.com/photo-1565464027194-7957a2295fb7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt=" " class="profile">
-        </div>
-        <div class="profile-name">Name</div>
-        <p class="about">About</p>
-        <div>
-          <i href="https://github.com/" class="fa fa-align-center fa-github"></i>
-          <i href="https://www.linkedin.com/" class="fa fa-linkedin"></i>
-          <i href="https://www.instagram.com/" class="fa fa-instagram"></i>
-          <i href="https://twitter.com/" class="fa fa-twitter"></i>
-          <i href="https://www.facebook.com/" class="fa fa-facebook"></i>
-    
-        </div>
-      </div>
-    
-  </div>
-
-  <div class="column">
-    
-    <div class="container">
-      <div class="cover-photo">
-        <img src="https://images.unsplash.com/photo-1565464027194-7957a2295fb7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt=" " class="profile">
-      </div>
-      <div class="profile-name">Name</div>
-      <p class="about">About</p>
-      <div>
-        <i href="https://github.com/" class="fa fa-align-center fa-github"></i>
-        <i href="https://www.linkedin.com/" class="fa fa-linkedin"></i>
-        <i href="https://www.instagram.com/" class="fa fa-instagram"></i>
-        <i href="https://twitter.com/" class="fa fa-twitter"></i>
-        <i href="https://www.facebook.com/" class="fa fa-facebook"></i>
-  
-      </div>
-    </div>
-  
-  </div>
-
-  <div class="column">
-    
-    <div class="container">
-      <div class="cover-photo">
-        <img src="https://images.unsplash.com/photo-1565464027194-7957a2295fb7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt=" " class="profile">
-      </div>
-      <div class="profile-name">Name</div>
-      <p class="about">About</p>
-      <div>
-        <i href="https://github.com/" class="fa fa-align-center fa-github"></i>
-        <i href="https://www.linkedin.com/" class="fa fa-linkedin"></i>
-        <i href="https://www.instagram.com/" class="fa fa-instagram"></i>
-        <i href="https://twitter.com/" class="fa fa-twitter"></i>
-        <i href="https://www.facebook.com/" class="fa fa-facebook"></i>
-  
-      </div>
-    </div>
-  
+  </div>  
 </div>
 
-</div>
 
